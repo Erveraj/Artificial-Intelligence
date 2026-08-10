@@ -1,4 +1,4 @@
-#Program No 9: Implement Heuristic Search Techniques in Python
+#Program No 9: Implement Heuristic Search Techniques in Python.
 import heapq
 
 graph = {
