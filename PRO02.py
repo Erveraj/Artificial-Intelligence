@@ -1,3 +1,4 @@
+#Program No 2: Compare Mathematical Expressions and Find Unknown Values
 # Import required functions from the SymPy library
 from sympy import symbols, Eq, solve, simplify
 
