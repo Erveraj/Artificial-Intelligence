@@ -1,3 +1,4 @@
+#Program No 3: Use Logic Programming in Python to Check Prime Numbers
 def is_prime(n):
     if n < 2:
         return False
