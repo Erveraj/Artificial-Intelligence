@@ -1,3 +1,4 @@
+# Program no 7: Implement Naïve Bayes Classifier, Compute Accuracy and Visualize Performance
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
