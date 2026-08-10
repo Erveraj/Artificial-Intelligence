@@ -1,3 +1,4 @@
+#Program no 7: Create a Fuzzy Control System for Restaurant Tipping
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
