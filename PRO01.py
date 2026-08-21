@@ -20,3 +20,4 @@ print("Is", name, "a human?", name in facts["human"])
 
 # Print whether the given name is mortal using the function
 print("Is", name, "mortal?", is_mortal(name))
+#test 21aug2026
