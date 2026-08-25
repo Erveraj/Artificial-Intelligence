@@ -1,6 +1,6 @@
 import heapq
-import networkx as nx
-import matplotlib.pyplot as plt
+import networkx as nx                                   # pyright: ignore[reportMissingModuleSource]
+import matplotlib.pyplot as plt                         # pyright: ignore[reportMissingModuleSource]
 def uniform_cost_search(graph, start, goal):
     
     priority_queue = [(0, start)]
