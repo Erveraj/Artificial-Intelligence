@@ -1,5 +1,5 @@
 #Program No 11: Extract Term Frequency Using a Bag of Words Model
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer  #type: ignore
 
 documents = [
     "AI is intelligent",
