@@ -1,8 +1,8 @@
 # Program No 10: Tokenize Text Data Using Python
 
-import nltk
+import nltk # type: ignore
 
-from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.tokenize import word_tokenize, sent_tokenize      # type: ignore
 
 nltk.download('punkt')
 nltk.download('punkt_tab')
