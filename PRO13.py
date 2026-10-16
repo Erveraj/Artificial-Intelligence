@@ -1,7 +1,7 @@
 #Program No 13: Visualize an Audio Speech Signal in Python
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.io import wavfile
+import numpy as np                  #type : ignore
+import matplotlib.pyplot as plt     #type : ignore
+from scipy.io import wavfile        #type : ignore
 
 sample_rate, audio = wavfile.read("speech.wav")
 
