@@ -21,6 +21,5 @@ new_text = ["The team played well in the football match"]
 new_X = vectorizer.transform(new_text)
 
 prediction = model.predict(new_X)
-
 print("Text:", new_text[0])
 print("Predicted Category:", prediction[0])
