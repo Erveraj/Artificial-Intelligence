@@ -1,6 +1,6 @@
 #Program No: 12 Predict the Category of a Given Piece of Text
 from sklearn.feature_extraction.text import CountVectorizer     #type: ignore
-from sklearn.naive_bayes import MultinomialNB       #type: ignore
+from sklearn.naive_bayes import MultinomialNB      #type: ignore 
 
 texts = [
     "team won the cricket match",
@@ -17,7 +17,7 @@ X = vectorizer.fit_transform(texts)
 model = MultinomialNB()
 model.fit(X, labels)
 
-new_text = ["AI software is written using python"]
+new_text = ["The team played well in the football match"]
 new_X = vectorizer.transform(new_text)
 
 prediction = model.predict(new_X)
